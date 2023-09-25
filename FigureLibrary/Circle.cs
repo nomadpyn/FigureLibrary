@@ -1,7 +1,4 @@
-﻿
-using System.Runtime.CompilerServices;
-
-namespace FigureLibrary
+﻿namespace FigureLibrary
 {
     #region Class Circle
     /// <summary>
@@ -9,7 +6,7 @@ namespace FigureLibrary
     /// </summary>
     public class Circle : Figure
     {
-        #region Private Fields
+        #region Public Fields
         public double Radius { get; set; }
         #endregion
 
